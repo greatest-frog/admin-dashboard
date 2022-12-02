@@ -20,9 +20,35 @@ ul {
 }
 
 .header {
+    padding: 20px 40px 10px 30px;
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.search_input {
+    background-color: #e2e8f0;
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.menu {
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 36px 60px 1fr;
+    align-items: center;
+    gap: 30px;
 }
 
 .user-avatar_small {
@@ -72,6 +98,7 @@ ul {
     gap: 15px;
     align-items: center;
 }
+
 .sidebar a:visited {
     color: inherit;
 }
